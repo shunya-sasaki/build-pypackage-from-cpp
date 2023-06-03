@@ -1,6 +1,6 @@
 **/__pycache__/
 **.egg-info
 **/.DS_Store
-/src/*/_version.py
 /.vscode/
 /dist
+/src/*/_version.py
