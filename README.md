@@ -7,7 +7,7 @@ This project is to build a Python package named `cpputils` with Pybind11 and CMa
 First, clone this project to your local machine with the following command.
 
 ```shell
-git clone --recursive git@github.com:shunya-sasaki/build-pypackage-from-cpp.git
+git clone --recursive https://github.com/shunya-sasaki/build-pypackage-from-cpp.git
 ```
 
 Then, build `.whl` file with the following. After building process `dist/cpputils-***.whl` will be created!
@@ -18,4 +18,4 @@ python -m build
 
 ## Author
 
-- Shunya Sasaki &lt;shunya.sasaki1120@gmail.com$gt;
+- Shunya Sasaki &lt;shunya.sasaki1120@gmail.com&gt;
