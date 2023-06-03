@@ -139,7 +139,7 @@ class CMakeBuild(build_ext):
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
     name="cpputils",
-    ext_modules=[CMakeExtension("cmake_example")],
+    ext_modules=[CMakeExtension("cpputils.lib")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
 )
